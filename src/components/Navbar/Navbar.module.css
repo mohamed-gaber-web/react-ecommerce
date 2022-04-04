@@ -1,0 +1,48 @@
+.navbar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar_links {
+    margin-top: 20px;
+}
+
+.navbar_links li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.navbar_links li a {
+    color: #555252;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transition: color 0.4s ease-in-out;
+    -moz-transition: color 0.4s ease-in-out;
+    -o-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+}
+
+.navbar_links li a:hover {
+    color: blueviolet;
+}
+
+.navbar_cart li {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 25px;
+    position: relative;
+}
+
+.navbar_cart li span {
+    width: 23px;
+    height: 23px;
+    background-color: black;
+    color: #fff;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 18px;
+    right: 0;
+
+}
