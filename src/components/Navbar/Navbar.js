@@ -6,6 +6,8 @@ import { BsPerson } from "react-icons/bs";
 import { BsCart } from "react-icons/bs";
 import { BsHeart } from "react-icons/bs";
 
+import { Link } from 'react-router-dom';
+
 import Topnav from '../Topnav/Topnav';
 
  const Navbar = () => {
@@ -21,12 +23,12 @@ import Topnav from '../Topnav/Topnav';
             
             <div className='col-md-6'>
                 <ul className={ style.navbar_links }>
-                    <li> <a href="#"> Home </a> </li>      
-                    <li> <a href="#"> Shop </a> </li>      
-                    <li> <a href="#"> Collection </a> </li>      
-                    <li> <a href="#"> About us </a> </li>      
-                    <li> <a href="#"> Blog </a> </li>      
-                    <li> <a href='#'> Contact us </a> </li>      
+                    <li> <Link to="/"> Home </Link> </li>      
+                    <li> <Link to="/shop"> Shop </Link> </li>      
+                    <li> <Link to="#"> Collection </Link> </li>      
+                    <li> <Link to="#"> About us </Link> </li>      
+                    <li> <Link to="#"> Blog </Link> </li>      
+                    <li> <Link to='#'> Contact us </Link> </li>      
                 </ul>
             </div>
                 

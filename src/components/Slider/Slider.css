@@ -1,0 +1,76 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel .slide {
+    height: 650px;
+    margin-top: 25px;
+    position: relative;
+    background: transparent;
+    border: none;
+}
+
+.carousel .slide .legend {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    background: transparent; 
+    border-radius: 0;
+    color: #fff;
+    font-size: 50px;
+    margin-left: 0;
+    opacity: 1;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    line-height: 60px;
+}
+
+.carousel .slide button {
+    font-size: 16px;
+    line-height: 1;
+    padding: 19px 50px 21px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-weight: 500;
+    -moz-transition: backgound 0.4s ease-in-out ;
+    -webkit-transition: all 0.4s ease-in-out ;
+    -o-transition: all 0.4s ease-in-out ;
+    transition: all 0.4s ease-in-out ;
+    font-weight: 600;
+}
+
+.carousel .slide button:hover {
+    background-color: rgb(167 73 255);
+    color: #fff;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+    background: transparent;
+} 
+
+.carousel .control-dots .dot {
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+}
+
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+    opacity: 1;
+    background-color: rgb(167 73 255);
+    filter: alpha(opacity=100);
+}
+
+.carousel .thumbs-wrapper {
+    display: none;
+}
+
+p.sub_title {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+}
